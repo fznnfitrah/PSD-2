@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+title: My Website
+chapters:
+  - file: bisnis
+    title: Bussines Understanding
+
+  - file: dataUnderstanding
+    title: Data Understanding
+    sections:
+      - file: explorationData
+        title: Exploration Data
+
+  - file: dataProcessing
+    title: Data Processing
+    sections:
+      - file: outlier_detection
+        title: Outliers Detection
+      - file: oversampling-data
+        title: Oversampling Data
+      - file: ensembleLearning
+        title: Ensemble learning
+      - file: bagging_method
+        title: Bagging Metode
+
+  - file: project-timeseries-forecasting
+    title: Project TimeSeries Forecasting
+    sections: 
+      - file: project-timeseries-autoCorrelation
+        title: TimeSeries Forecasting with Feature Selection (Revisi)
+      - file: project-timeseries-audio
+        title: TimeSeries Analisis Audio Fitur Analitik
